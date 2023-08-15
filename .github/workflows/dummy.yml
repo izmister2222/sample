@@ -1,5 +1,5 @@
 name: dummy
-on: push
+on: workflow_dispatch
 jobs:
   console:
     runs-on: ubuntu-latest
