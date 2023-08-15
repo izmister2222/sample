@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '14'
       - name: Console out
-        run: cat 'test...'
+        run: echo 'test...'
