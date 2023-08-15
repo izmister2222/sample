@@ -15,6 +15,7 @@ const App: FC = () => {
     <div>
       <h1>{headText}</h1>
       <p>{displayData.description}</p>
+      <button onClick={() => alert('ありがとう')}>押して！</button>
     </div>
   );
 };
